@@ -1,0 +1,19 @@
+.tab {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+}
+
+.tab__active {
+    background-color: #e8e8e8;
+    border: 1px solid #bbb;
+    font-weight: 500;
+
+    
+}
