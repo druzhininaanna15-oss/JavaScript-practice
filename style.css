@@ -11,9 +11,37 @@
 }
 
 .tab__active {
-    background-color: #e8e8e8;
-    border: 1px solid #bbb;
-    font-weight: 500;
+  background-color: #e8e8e8;
+  border: 1px solid #bbb;
+  font-weight: 500;
+}
 
-    
+.tabs-navigation {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.task-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 14px;
+  border: 1px solid rgba(30, 10, 60, 0.12);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.task-input::placeholder {
+  color: #9b96a6;
+}
+
+.add-button {
+  padding: 12px 45px;
+  border-radius: 8px;
+  border: 1px solid rgba(30, 10, 60, 0.12);
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #7e66cd;
 }
